@@ -1,0 +1,40 @@
+#intro {
+  background-color: #eee;
+}
+
+.separator {
+	padding-bottom: 20px;
+}
+
+.chat-panel .panel-body {
+    height: 550px;
+}
+
+
+
+
+
+
+.affix-top,.affix{
+	position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+   	margin-top:70px;
+    position: static;
+  	width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+#sidebar li.active {
+  	border-right-width:4px;
+    background-color: #eee;
+
+}
